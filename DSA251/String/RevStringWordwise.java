@@ -3,28 +3,9 @@ package String;
 import java.util.Scanner;
 
 public class RevStringWordwise {
-        static String reverseStringWordWise(String input) {
-        int n = input.length();
-        String revString = "";
-        String word ="";
-        for (int i = 0; i<n;i++){
-            char c = input.charAt(i);
-
-            if (c == ' ' || i==n-1){
-                if (i == n-1){
-                    word += c;
-                }
-                revString = word +" " + revString;
-                
-                word = "";
-            }else{
-                word += c;
-            }
-        }
-        return revString;
-
-    }
-
+       
+ 
+    public static string
     // Different approach
             // // spilt the array based on space and store it in array
             // String[] strarray= input.split(" ");
